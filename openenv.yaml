@@ -1,0 +1,16 @@
+
+spec_version: 1
+
+name: hospital_env   # ✅ updated name
+
+type: space
+runtime: fastapi
+
+app: server.app:app
+port: 7860
+
+# ✅ ADD TASKS (MANDATORY)
+tasks:
+  - easy
+  - medium
+  - hard
